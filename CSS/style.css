@@ -1,0 +1,128 @@
+*{margin: 0; padding: 0;}
+*{font-family: 'montserrat', sans-serif;}
+
+#nav{
+	background-color: #080707;
+	height: 50px;
+	width: 100%;
+	padding: 5px;
+	position: fixed;
+	border-bottom: 2px solid #f3c8ba;
+	z-index: 999;
+}
+
+#container{
+	max-width: 1100px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#logo{
+	height: 100%;
+}
+
+.navlinks{
+	display: inline;
+	padding: 16px;
+	font-size: 14px;
+	position: absolute;
+}
+
+.navlinks a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	border: 10px solid transparent;
+}
+
+.navlinks a:hover{
+	background-color: #f3c8ba;
+	color: black;
+}
+
+.drooling{
+	position: relative; left: 25px;
+	border-right: 1px solid gray;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.need{
+	position: relative; left: 30px;
+	border-right: 1px solid gray;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.star{
+	position: relative; left: 35px;
+	border-right: 1px solid gray;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.dont{
+	position: relative; left: 40px;
+	border-right: 1px solid gray;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#page{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+#top{
+	width: 100%;
+	margin-bottom: -80px;
+}
+
+#pic{
+	width: 100%;
+	margin-top: 70px;
+}
+
+#top h2{
+	position: relative;
+	top: -125px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	font-size: 37px;
+}
+
+#content{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#beyonce{
+	width: 72%;
+	position: relative;
+	float:left;
+}
+
+#bey{
+	width:100%;
+}
+
+#adspace{
+	width: 25%;
+	background-color: red;
+	float: right;
+	height: 625px;
+}
+
+@media screen and (max-width: 700px) {
+	#page{width: 100%;}
+	#top h2{font-size: 22px; top: -85px;}
+	#content{margin: 10px auto;}
+	#beyonce{width:100%;}
+	#adspace{display: none;}
+	#nav{text-align: center;}
+	.drooling{display: none;}
+	.need{display: none;}
+	.star{display: none;}
+	.dont{display: none;}
+}
